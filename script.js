@@ -14,15 +14,19 @@ let addRow = document.getElementById('add-row');
 addRow.addEventListener('click', makeRow);
 
 table.addEventListener('click', colorize);
+table.addEventListener('mouseover', colorize);
 
 function colorize(event) {
 //console.log('Clicked!')
 let cell = event.target;
-  if (cell.className.length) {
+if (cell.tagName === 'TD'){
+
+  if (cell.className === currentColor) {
   cell.className = '';
 } else {
 cell.className = currentColor;
  }
+}
 }
 
 let colors = document.getElementsByTagName('select')[0];
