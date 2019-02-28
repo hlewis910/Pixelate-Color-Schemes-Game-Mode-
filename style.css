@@ -22,3 +22,22 @@ td {
 }
 
 /* your CSS below! */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.lightcoral {
+  background-color: lightcoral;
+}
