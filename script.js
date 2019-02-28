@@ -1,19 +1,29 @@
 // Your code here
 let table = document.getElementsByTagName('table')[0];
-let currentColor = 'red';
-function makeRow() {
-  let newRow = document.createElement('tr');
-  table.appendChild(newRow);
-  for (let i = 0; i < 20; i++) {
-    let newCell = document.createElement('td');
-    newRow.appendChild(newCell);
+let currentColor = 'purple';
+
+let submit = document.getElementById('button');
+button.addEventListener('click', setDimensions );
+
+function setDimensions() {
+  function makeRow() {
+    let newRow = document.createElement('tr');
+    table.appendChild(newRow);
+    for (let i = 0; i < 20; i++) {
+      let newCell = document.createElement('td');
+      newRow.appendChild(newCell);
+    }
   }
 }
+
+
 makeRow();
 makeRow();
 makeRow();
 makeRow();
 makeRow();
+
+
 let addRow = document.getElementById('add-row');
 addRow.addEventListener('click', makeRow);
 

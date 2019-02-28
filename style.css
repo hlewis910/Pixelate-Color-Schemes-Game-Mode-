@@ -3,6 +3,7 @@
   font-family: 'Press Start 2P', cursive;
 }
 
+
 html {
   background-color: #222;
   color: white;
@@ -21,9 +22,14 @@ td {
 
 }
 
+#button {
+  background: lightgray;
+  
+}
+
 /* your CSS below! */
-.red {
-  background-color: red;
+.purple {
+  background-color: rgb(180, 122, 180);
 }
 
 .green {
